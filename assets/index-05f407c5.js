@@ -7907,7 +7907,7 @@ function Modal(props) {
     window.open(link, "_blank");
   }
   if (props.modalIsOpen === true) {
-    return /* @__PURE__ */ jsx("div", { className: styles.background, children: /* @__PURE__ */ jsxs("section", { className: styles.content, children: [
+    return /* @__PURE__ */ jsx("section", { className: styles.background, children: /* @__PURE__ */ jsxs("section", { className: styles.content, children: [
       /* @__PURE__ */ jsx("header", { children: /* @__PURE__ */ jsx("span", { onClick: props.modalClose, children: /* @__PURE__ */ jsx(
         Icon,
         {

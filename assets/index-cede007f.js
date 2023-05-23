@@ -7886,9 +7886,9 @@ const styles$2 = {
 };
 function Button(props) {
   if (props.textButton === "ENVIAR") {
-    return /* @__PURE__ */ jsx("button", { type: "submit", className: styles$2.btn, onClick: props.acao, children: /* @__PURE__ */ jsx("span", { children: props.textButton }) });
+    return /* @__PURE__ */ jsx("button", { type: "submit", className: styles$2.btn, onClick: () => props.acao(), children: /* @__PURE__ */ jsx("span", { children: props.textButton }) });
   } else {
-    return /* @__PURE__ */ jsx("button", { type: "button", className: styles$2.btn, onClick: props.acao, children: /* @__PURE__ */ jsx("span", { children: props.textButton }) });
+    return /* @__PURE__ */ jsx("button", { type: "button", className: styles$2.btn, onClick: () => props.acao(), children: /* @__PURE__ */ jsx("span", { children: props.textButton }) });
   }
 }
 const background = "_background_1tuhd_1";

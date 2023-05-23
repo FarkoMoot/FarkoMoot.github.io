@@ -7920,8 +7920,9 @@ function Modal(props) {
       /* @__PURE__ */ jsx("p", { className: styles.paragrah, children: props.text }),
       /* @__PURE__ */ jsx(Button, { textButton: "Ver Mais", acao: handleOpenMoreDetials })
     ] }) });
+  } else {
+    return null;
   }
-  return null;
 }
 function Cardprojeto(props) {
   const [isOpen, setIsOpen] = react.exports.useState(false);

@@ -7918,7 +7918,7 @@ function Modal(props) {
       /* @__PURE__ */ jsx("h2", { className: styles$1.title, children: props.name }),
       /* @__PURE__ */ jsx("img", { src: props.img }),
       /* @__PURE__ */ jsx("p", { className: styles$1.paragrah, children: props.text }),
-      /* @__PURE__ */ jsx(Button, { textButton: "Ver Mais", acao: handleOpenMoreDetials })
+      /* @__PURE__ */ jsx(Button, { textButton: "Ver Mais", acao: () => handleOpenMoreDetials() })
     ] }) });
   } else {
     return null;

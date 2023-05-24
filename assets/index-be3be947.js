@@ -9270,7 +9270,6 @@ function Cardprojeto(props) {
       ReactModal,
       {
         isOpen,
-        className: styles.modal_background,
         children: /* @__PURE__ */ jsxs("section", { children: [
           /* @__PURE__ */ jsx("span", { onClick: () => closeModal(), children: /* @__PURE__ */ jsx(
             Icon,

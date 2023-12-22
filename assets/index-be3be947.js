@@ -9315,7 +9315,7 @@ function App() {
           /* @__PURE__ */ jsx("br", {}),
           "Gustavo Patrick"
         ] }),
-        /* @__PURE__ */ jsx("p", { className: styles$5.text, children: "Sou um entusiasta da Tecnologia e apaixonado por Esportes, Motos e Programação. Atualmente estudante de Engenharia Fisica na UFVJM, professor de Educaçao Basica pela rede estadual de ensino e aspirante a desenvolvedor de sites e aplicativos." }),
+        /* @__PURE__ */ jsx("p", { className: styles$5.text, children: "Sou um entusiasta da tecnologia e apaixonado por esportes, motos e programação. Atualmente, estudante de Engenharia Física na UFVJM, professor de Educação Básica pela rede estadual de ensino e aspirante a desenvolvedor de sites e aplicativos." }),
         /* @__PURE__ */ jsx("div", { children: /* @__PURE__ */ jsx(Button, { textButton: "ENTRE EM CONTATO", click: "contato", acao: handleAction }) })
       ] }),
       /* @__PURE__ */ jsx("div", { className: styles$5.contentImg, children: /* @__PURE__ */ jsx("img", { src: imgME }) })
